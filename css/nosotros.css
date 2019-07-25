@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: 'Lato', sans-serif;
+}
+
+
+
+header nav a:hover{
+    border-bottom: 4px solid green;
+    padding-bottom: 5px
+}
+
+
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    line-height: 2;
+    margin: 20px 0
+}
+
+.contenido-nosotros{
+    display: flex;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.19);
+}
+
+.contenido-nosotros img{
+    width: 500px
+}
+.contenido-nosotros .texto-nosotros{
+    margin: 15px;
+    
+}
+.contenido-nosotros blockquote{
+    font-weight: 900;
+    line-height: 3;
+}
+
+.contenido-nosotros .texto-nosotros p{
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+
+section{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h2{
+    font-size: 34px;
+    color: gray;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.div-nosotros{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.divs-icons-nosotros{
+    text-align: center;
+    flex-basis: calc(33.3% - 10px);
+ 
+}
+
+.nosotros h3{
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+
+footer nav a:hover{
+    border-bottom: 4px solid green;
+    padding-bottom: 5px;
+}

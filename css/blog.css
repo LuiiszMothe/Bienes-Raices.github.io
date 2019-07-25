@@ -1,0 +1,62 @@
+.blog{
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    min-width: 600px
+}
+
+.seccion-inferior .blog{
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales{
+    flex-basis: calc(40% - 20px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen-blog{
+    flex-basis: 40%;
+    overflow: hidden
+}
+.imagen-blog img{
+    width: 100%;
+}
+.texto-blog{
+    flex-basis: calc(60% - 30px);
+    margin: 20px;
+}
+.texto-blog h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    border-bottom: 3px solid #00c400;
+    margin-bottom: 10px;
+}
+
+.arreglar-fecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-texto-blog{
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 18px;
+    
+}
+
+.fecha-publica{
+    text-align: right;
+    color: gray;
+    text-transform: capitalize;
+    line-height: 2;
+    margin-bottom: 20px;
+}

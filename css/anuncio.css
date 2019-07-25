@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+header nav a:hover{
+    border-bottom: 4px solid #0089ff;
+    transition: 0.4s;
+}
+
+.img-destacada{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-destacada img{
+    width: 100%;
+}
+
+.texto-info{
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.info-precio{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    padding: 0 30px;
+}
+
+.caracteristicas{
+    display: flex;
+
+}
+
+.caracteristicas ul,.caracteristicas li{
+    display: flex;
+    margin: 10px 20px;
+    color: black;
+}
+
+.texto-info{
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
